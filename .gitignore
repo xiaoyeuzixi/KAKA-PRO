@@ -40,6 +40,14 @@
 /Include/*.rar
 /Include/*.zip
 
+# ---------- 根目录开发期副本与脚本（发布目录 x64/Release 内已有对应文件） ----------
+/Key.ini
+/lic.ini
+/VMProtectSDK*.dll
+/VMProtectSDK*.lib
+/check_deploy_dlls.ps1
+/shell_test.txt
+
 # ---------- VS 本地设置 ----------
 .vs/
 *.VC.db

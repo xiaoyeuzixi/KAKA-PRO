@@ -65,7 +65,7 @@
 | 雷达 | 大地图 / 小地图雷达、密室标注、空投与载具显示、网页共享雷达（WebRadar） |
 | 载具 / 投掷物 | 载具血量油量、手雷/火箭弹道预测与爆炸范围、迫击炮落点 |
 | 稳定性 | 修复资源释放崩溃，优化线程渲染（`MThreadRenderer.h`）、渲染缓存（`RenderCache.h`）、骨骼平滑（`BoneSmoother.h`） |
-| 防护 | 集成 SProtect / SPCloud 云端卡密验证（`Source/SProtect`）与 `验证码.h` 人机验证 |
+| 防护 | 集成 SProtect / SPCloud 云端卡密验证（`Source/SProtect`）与登录校验流程 |
 
 > **二改标注要求**：任何基于本仓库的再分发，必须在 README 与程序关于页保留 **`kaka`（原版）+ `kaka 二改`（二次修改）** 两处署名。
 
@@ -120,7 +120,6 @@
 KAKA-PRO/
 ├─ Main.cpp                      # 程序入口：DMA 初始化、更新器、主循环、窗口
 ├─ resource.h / Jax Kane.rc      # 资源脚本（图标）
-├─ 验证码.h                      # 人机验证（卡密登录流程）
 ├─ version.txt                   # 版本号，程序自动更新用
 ├─ Jax Kane.sln                  # VS2022 解决方案（工程名 Jax Kane，目标 KAKA-PRO）
 ├─ Media.vcxproj                 # 工程文件（v143 / x64 / Release）
