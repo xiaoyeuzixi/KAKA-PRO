@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreProperties xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties">
+  <dc:creator>Microsoft</dc:creator>
+  <dc:description>This package contains the includes, import libraries, and DLLs required to use the legacy DirectX SDK's D3DX9, D3DX10, and/or D3DX11 utility libraries.
+
+For Direct3D 11 users, the recommendation is to switch from D3DX11 to one of these open-source replacements to remove the need for this legacy NuGet package: https://aka.ms/Kfsdiu</dc:description>
+  <dc:identifier>Microsoft.DXSDK.D3DX</dc:identifier>
+  <version>9.29.952.8</version>
+  <keywords>DirectX D3DX native nativepackage</keywords>
+  <lastModifiedBy>NuGet, Version=5.8.1.7021, Culture=neutral, PublicKeyToken=31bf3856ad364e35;Microsoft Windows NT 10.0.17763.0;.NET Framework 4.7.2</lastModifiedBy>
+</coreProperties>

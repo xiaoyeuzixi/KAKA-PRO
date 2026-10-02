@@ -1,0 +1,46 @@
+# ============================================================
+#  KAKA-PRO (kaka 二改)  .gitignore
+#  原则：只保留"参与编译的源文件/头文件/库"以及"发布目录 x64/Release 的运行文件"，
+#        排除编译中间产物、日志、调试转储、未参与编译的备份文件。
+# ============================================================
+
+# ---------- 构建中间产物（VS 中间目录 / 目标文件 / 调试符号） ----------
+/Jax Kane/
+/x64/*
+!/x64/Release/
+/x64/Release/obj/
+/Microsoft/
+*.obj
+*.iobj
+*.ipdb
+*.pdb
+*.ilk
+*.tlog
+
+# ---------- 日志、调试输出、运行时转储 ----------
+/*.log
+/*_err.log
+/*.bin
+/build_env_check.ps1
+/build_env_report.txt
+/msbuild_out.txt
+/run_out.txt
+/run_out.txt.err
+/imgui.ini
+/*.aps
+/x64/Release/*.log
+/x64/Release/run_*.txt
+/x64/Release/crash_*.txt
+
+# ---------- 未参与编译的备份文件 / 压缩包 ----------
+/test.cpp
+/struct.h
+/Source/Hack/Hack.rar
+/Source/Common/VisibleScene - 副本.h
+/Include/*.rar
+/Include/*.zip
+
+# ---------- VS 本地设置 ----------
+.vs/
+*.VC.db
+*.suo

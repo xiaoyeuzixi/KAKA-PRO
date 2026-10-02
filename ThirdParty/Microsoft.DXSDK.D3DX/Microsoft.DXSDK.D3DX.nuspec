@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.8.6">
+    <id>Microsoft.DXSDK.D3DX</id>
+    <version>9.29.952.8</version>
+    <title>Microsoft.DXSDK.D3DX</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,directxtk</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>images\icon.jpg</icon>
+    <projectUrl>https://devblogs.microsoft.com/directx/</projectUrl>
+    <description>This package contains the includes, import libraries, and DLLs required to use the legacy DirectX SDK's D3DX9, D3DX10, and/or D3DX11 utility libraries.
+
+For Direct3D 11 users, the recommendation is to switch from D3DX11 to one of these open-source replacements to remove the need for this legacy NuGet package: https://aka.ms/Kfsdiu</description>
+    <summary>Legacy DirectX SDK D3DX9, D3DX10, and D3DX11 utility libraries</summary>
+    <releaseNotes>Matches the DirectX SDK (June 2010) release.</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>DirectX D3DX native nativepackage</tags>
+  </metadata>
+</package>
